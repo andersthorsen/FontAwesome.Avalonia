@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FontAwesome.WPF
+namespace FontAwesome.Avalonia
 {
     /// <summary>
     /// Represents the category of a fontawesome icon.
@@ -14,7 +14,7 @@ namespace FontAwesome.WPF
         /// </summary>
         public string Category { get; set; }
         /// <summary>
-        /// Initializes a new instance of the FontAwesome.WPF.IconCategoryAttribute class.
+        /// Initializes a new instance of the FontAwesome.Avalonia.IconCategoryAttribute class.
         /// </summary>
         /// <param name="category">The icon category.</param>
         public IconCategoryAttribute(string category)
@@ -43,7 +43,7 @@ namespace FontAwesome.WPF
         public string Id { get; set; }
 
         /// <summary>
-        /// Initializes a new instance of the FontAwesome.WPF.IconIdAttribute class.
+        /// Initializes a new instance of the FontAwesome.Avalonia.IconIdAttribute class.
         /// </summary>
         /// <param name="id">The icon id (css class name).</param>
         public IconIdAttribute(string id)

@@ -1,4 +1,4 @@
-﻿namespace FontAwesome.WPF
+﻿namespace FontAwesome.Avalonia
 {
     /// <summary>
     /// Represents a rotatable control

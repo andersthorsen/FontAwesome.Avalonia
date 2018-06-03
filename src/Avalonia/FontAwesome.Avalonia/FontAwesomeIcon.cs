@@ -7,7 +7,7 @@
 //     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-namespace FontAwesome.WPF {
+namespace FontAwesome.Avalonia {
 	using System.ComponentModel;
 	///<summary>
 	///	FontAwesome v4.7.0 by Dave Gandy (@davegandy)
@@ -77,11 +77,11 @@ namespace FontAwesome.WPF {
 		[Description("Times"),IconId("times"),IconCategory("Web Application Icons")]
 		Times = 0xf00d,
 		///<summary>Alias of: Times</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Times" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Times" />
 		[IconAlias]
 		Remove = Times,
 		///<summary>Alias of: Times</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Times" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Times" />
 		[IconAlias]
 		Close = Times,
 		///<summary>Search Plus (created: 1.0)</summary>
@@ -105,7 +105,7 @@ namespace FontAwesome.WPF {
 		[Description("cog"),IconId("cog"),IconCategory("Web Application Icons"),IconCategory("Spinner Icons")]
 		Cog = 0xf013,
 		///<summary>Alias of: Cog</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Cog" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Cog" />
 		[IconAlias]
 		Gear = Cog,
 		///<summary>Trash Outlined (created: 1.0)</summary>
@@ -153,7 +153,7 @@ namespace FontAwesome.WPF {
 		[Description("Repeat"),IconId("repeat"),IconCategory("Text Editor Icons")]
 		Repeat = 0xf01e,
 		///<summary>Alias of: Repeat</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Repeat" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Repeat" />
 		[IconAlias]
 		RotateRight = Repeat,
 		///<summary>refresh (created: 1.0)</summary>
@@ -265,7 +265,7 @@ namespace FontAwesome.WPF {
 		[Description("Outdent"),IconId("outdent"),IconCategory("Text Editor Icons")]
 		Outdent = 0xf03b,
 		///<summary>Alias of: Outdent</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Outdent" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Outdent" />
 		[IconAlias]
 		Dedent = Outdent,
 		///<summary>Indent (created: 1.0)</summary>
@@ -281,11 +281,11 @@ namespace FontAwesome.WPF {
 		[Description("Picture Outlined"),IconId("picture-o"),IconCategory("Web Application Icons")]
 		PictureOutline = 0xf03e,
 		///<summary>Alias of: PictureOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PictureOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.PictureOutline" />
 		[IconAlias]
 		Photo = PictureOutline,
 		///<summary>Alias of: PictureOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PictureOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.PictureOutline" />
 		[IconAlias]
 		Image = PictureOutline,
 		///<summary>pencil (created: 1.0)</summary>
@@ -309,7 +309,7 @@ namespace FontAwesome.WPF {
 		[Description("Pencil Square Outlined"),IconId("pencil-square-o"),IconCategory("Web Application Icons")]
 		PencilSquareOutline = 0xf044,
 		///<summary>Alias of: PencilSquareOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PencilSquareOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.PencilSquareOutline" />
 		[IconAlias]
 		Edit = PencilSquareOutline,
 		///<summary>Share Square Outlined (created: 1.0)</summary>
@@ -433,7 +433,7 @@ namespace FontAwesome.WPF {
 		[Description("Share"),IconId("share"),IconCategory("Web Application Icons")]
 		Share = 0xf064,
 		///<summary>Alias of: Share</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Share" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Share" />
 		[IconAlias]
 		MailForward = Share,
 		///<summary>Expand (created: 1.0)</summary>
@@ -485,7 +485,7 @@ namespace FontAwesome.WPF {
 		[Description("Exclamation Triangle"),IconId("exclamation-triangle"),IconCategory("Web Application Icons")]
 		ExclamationTriangle = 0xf071,
 		///<summary>Alias of: ExclamationTriangle</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ExclamationTriangle" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ExclamationTriangle" />
 		[IconAlias]
 		Warning = ExclamationTriangle,
 		///<summary>plane (created: 1.0)</summary>
@@ -545,7 +545,7 @@ namespace FontAwesome.WPF {
 		[Description("Bar Chart"),IconId("bar-chart"),IconCategory("Web Application Icons"),IconCategory("Chart Icons")]
 		BarChart = 0xf080,
 		///<summary>Alias of: BarChart</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BarChart" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.BarChart" />
 		[IconAlias]
 		BarChartOutline = BarChart,
 		///<summary>Twitter Square (created: 1.0)</summary>
@@ -569,7 +569,7 @@ namespace FontAwesome.WPF {
 		[Description("cogs"),IconId("cogs"),IconCategory("Web Application Icons")]
 		Cogs = 0xf085,
 		///<summary>Alias of: Cogs</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Cogs" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Cogs" />
 		[IconAlias]
 		Gears = Cogs,
 		///<summary>comments (created: 1.0)</summary>
@@ -653,7 +653,7 @@ namespace FontAwesome.WPF {
 		[Description("Facebook"),IconId("facebook"),IconCategory("Brand Icons")]
 		Facebook = 0xf09a,
 		///<summary>Alias of: Facebook</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Facebook" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Facebook" />
 		[IconAlias]
 		FacebookF = Facebook,
 		///<summary>GitHub (created: 2.0)</summary>
@@ -673,7 +673,7 @@ namespace FontAwesome.WPF {
 		[Description("rss"),IconId("rss"),IconCategory("Web Application Icons")]
 		Rss = 0xf09e,
 		///<summary>Alias of: Rss</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rss" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Rss" />
 		[IconAlias]
 		Feed = Rss,
 		///<summary>HDD (created: 2.0)</summary>
@@ -753,7 +753,7 @@ namespace FontAwesome.WPF {
 		[Description("Users"),IconId("users"),IconCategory("Web Application Icons")]
 		Users = 0xf0c0,
 		///<summary>Alias of: Users</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Users" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Users" />
 		[IconAlias]
 		Group = Users,
 		///<summary>Link (created: 2.0)</summary>
@@ -761,7 +761,7 @@ namespace FontAwesome.WPF {
 		[Description("Link"),IconId("link"),IconCategory("Text Editor Icons")]
 		Link = 0xf0c1,
 		///<summary>Alias of: Link</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Link" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Link" />
 		[IconAlias]
 		Chain = Link,
 		///<summary>Cloud (created: 2.0)</summary>
@@ -777,7 +777,7 @@ namespace FontAwesome.WPF {
 		[Description("Scissors"),IconId("scissors"),IconCategory("Text Editor Icons")]
 		Scissors = 0xf0c4,
 		///<summary>Alias of: Scissors</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Scissors" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Scissors" />
 		[IconAlias]
 		Cut = Scissors,
 		///<summary>Files Outlined (created: 2.0)</summary>
@@ -785,7 +785,7 @@ namespace FontAwesome.WPF {
 		[Description("Files Outlined"),IconId("files-o"),IconCategory("Text Editor Icons")]
 		FilesOutline = 0xf0c5,
 		///<summary>Alias of: FilesOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FilesOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FilesOutline" />
 		[IconAlias]
 		Copy = FilesOutline,
 		///<summary>Paperclip (created: 2.0)</summary>
@@ -797,7 +797,7 @@ namespace FontAwesome.WPF {
 		[Description("Floppy Outlined"),IconId("floppy-o"),IconCategory("Text Editor Icons")]
 		FloppyOutline = 0xf0c7,
 		///<summary>Alias of: FloppyOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FloppyOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FloppyOutline" />
 		[IconAlias]
 		Save = FloppyOutline,
 		///<summary>Square (created: 2.0)</summary>
@@ -809,11 +809,11 @@ namespace FontAwesome.WPF {
 		[Description("Bars"),IconId("bars"),IconCategory("Web Application Icons")]
 		Bars = 0xf0c9,
 		///<summary>Alias of: Bars</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bars" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Bars" />
 		[IconAlias]
 		Navicon = Bars,
 		///<summary>Alias of: Bars</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bars" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Bars" />
 		[IconAlias]
 		Reorder = Bars,
 		///<summary>list-ul (created: 2.0)</summary>
@@ -889,7 +889,7 @@ namespace FontAwesome.WPF {
 		[Description("Sort"),IconId("sort"),IconCategory("Web Application Icons")]
 		Sort = 0xf0dc,
 		///<summary>Alias of: Sort</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Sort" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Sort" />
 		[IconAlias]
 		Unsorted = Sort,
 		///<summary>Sort Descending (created: 2.0)</summary>
@@ -897,7 +897,7 @@ namespace FontAwesome.WPF {
 		[Description("Sort Descending"),IconId("sort-desc"),IconCategory("Web Application Icons")]
 		SortDesc = 0xf0dd,
 		///<summary>Alias of: SortDesc</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.SortDesc" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.SortDesc" />
 		[IconAlias]
 		SortDown = SortDesc,
 		///<summary>Sort Ascending (created: 2.0)</summary>
@@ -905,7 +905,7 @@ namespace FontAwesome.WPF {
 		[Description("Sort Ascending"),IconId("sort-asc"),IconCategory("Web Application Icons")]
 		SortAsc = 0xf0de,
 		///<summary>Alias of: SortAsc</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.SortAsc" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.SortAsc" />
 		[IconAlias]
 		SortUp = SortAsc,
 		///<summary>Envelope (created: 2.0)</summary>
@@ -921,7 +921,7 @@ namespace FontAwesome.WPF {
 		[Description("Undo"),IconId("undo"),IconCategory("Text Editor Icons")]
 		Undo = 0xf0e2,
 		///<summary>Alias of: Undo</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Undo" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Undo" />
 		[IconAlias]
 		RotateLeft = Undo,
 		///<summary>Gavel (created: 2.0)</summary>
@@ -929,7 +929,7 @@ namespace FontAwesome.WPF {
 		[Description("Gavel"),IconId("gavel"),IconCategory("Web Application Icons")]
 		Gavel = 0xf0e3,
 		///<summary>Alias of: Gavel</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Gavel" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Gavel" />
 		[IconAlias]
 		Legal = Gavel,
 		///<summary>Tachometer (created: 2.0)</summary>
@@ -937,7 +937,7 @@ namespace FontAwesome.WPF {
 		[Description("Tachometer"),IconId("tachometer"),IconCategory("Web Application Icons")]
 		Tachometer = 0xf0e4,
 		///<summary>Alias of: Tachometer</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Tachometer" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Tachometer" />
 		[IconAlias]
 		Dashboard = Tachometer,
 		///<summary>comment-o (created: 2.0)</summary>
@@ -953,7 +953,7 @@ namespace FontAwesome.WPF {
 		[Description("Lightning Bolt"),IconId("bolt"),IconCategory("Web Application Icons")]
 		Bolt = 0xf0e7,
 		///<summary>Alias of: Bolt</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bolt" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Bolt" />
 		[IconAlias]
 		Flash = Bolt,
 		///<summary>Sitemap (created: 2.0)</summary>
@@ -969,7 +969,7 @@ namespace FontAwesome.WPF {
 		[Description("Clipboard"),IconId("clipboard"),IconCategory("Text Editor Icons")]
 		Clipboard = 0xf0ea,
 		///<summary>Alias of: Clipboard</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Clipboard" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Clipboard" />
 		[IconAlias]
 		Paste = Clipboard,
 		///<summary>Lightbulb Outlined (created: 3.0)</summary>
@@ -1097,7 +1097,7 @@ namespace FontAwesome.WPF {
 		[Description("Mobile Phone"),IconId("mobile"),IconCategory("Web Application Icons")]
 		Mobile = 0xf10b,
 		///<summary>Alias of: Mobile</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Mobile" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Mobile" />
 		[IconAlias]
 		MobilePhone = Mobile,
 		///<summary>Circle Outlined (created: 3.0)</summary>
@@ -1125,7 +1125,7 @@ namespace FontAwesome.WPF {
 		[Description("Reply"),IconId("reply"),IconCategory("Web Application Icons")]
 		Reply = 0xf112,
 		///<summary>Alias of: Reply</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Reply" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Reply" />
 		[IconAlias]
 		MailReply = Reply,
 		///<summary>GitHub Alt (created: 3.0)</summary>
@@ -1181,7 +1181,7 @@ namespace FontAwesome.WPF {
 		[Description("reply-all"),IconId("reply-all"),IconCategory("Web Application Icons")]
 		ReplyAll = 0xf122,
 		///<summary>Alias of: ReplyAll</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ReplyAll" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ReplyAll" />
 		[IconAlias]
 		MailReplyAll = ReplyAll,
 		///<summary>Star Half Outlined (created: 3.1)</summary>
@@ -1189,11 +1189,11 @@ namespace FontAwesome.WPF {
 		[Description("Star Half Outlined"),IconId("star-half-o"),IconCategory("Web Application Icons")]
 		StarHalfOutline = 0xf123,
 		///<summary>Alias of: StarHalfOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.StarHalfOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.StarHalfOutline" />
 		[IconAlias]
 		StarHalfEmpty = StarHalfOutline,
 		///<summary>Alias of: StarHalfOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.StarHalfOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.StarHalfOutline" />
 		[IconAlias]
 		StarHalfFull = StarHalfOutline,
 		///<summary>location-arrow (created: 3.1)</summary>
@@ -1213,7 +1213,7 @@ namespace FontAwesome.WPF {
 		[Description("Chain Broken"),IconId("chain-broken"),IconCategory("Text Editor Icons")]
 		ChainBroken = 0xf127,
 		///<summary>Alias of: ChainBroken</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ChainBroken" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ChainBroken" />
 		[IconAlias]
 		Unlink = ChainBroken,
 		///<summary>Question (created: 3.1)</summary>
@@ -1369,7 +1369,7 @@ namespace FontAwesome.WPF {
 		[Description("Caret Square Outlined Down"),IconId("caret-square-o-down"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
 		CaretSquareOutlineDown = 0xf150,
 		///<summary>Alias of: CaretSquareOutlineDown</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineDown" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.CaretSquareOutlineDown" />
 		[IconAlias]
 		ToggleDown = CaretSquareOutlineDown,
 		///<summary>Caret Square Outlined Up (created: 3.2)</summary>
@@ -1377,7 +1377,7 @@ namespace FontAwesome.WPF {
 		[Description("Caret Square Outlined Up"),IconId("caret-square-o-up"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
 		CaretSquareOutlineUp = 0xf151,
 		///<summary>Alias of: CaretSquareOutlineUp</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineUp" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.CaretSquareOutlineUp" />
 		[IconAlias]
 		ToggleUp = CaretSquareOutlineUp,
 		///<summary>Caret Square Outlined Right (created: 3.2)</summary>
@@ -1385,7 +1385,7 @@ namespace FontAwesome.WPF {
 		[Description("Caret Square Outlined Right"),IconId("caret-square-o-right"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
 		CaretSquareOutlineRight = 0xf152,
 		///<summary>Alias of: CaretSquareOutlineRight</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineRight" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.CaretSquareOutlineRight" />
 		[IconAlias]
 		ToggleRight = CaretSquareOutlineRight,
 		///<summary>Euro (EUR) (created: 3.2)</summary>
@@ -1393,7 +1393,7 @@ namespace FontAwesome.WPF {
 		[Description("Euro (EUR)"),IconId("eur"),IconCategory("Currency Icons")]
 		Eur = 0xf153,
 		///<summary>Alias of: Eur</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Eur" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Eur" />
 		[IconAlias]
 		Euro = Eur,
 		///<summary>GBP (created: 3.2)</summary>
@@ -1405,7 +1405,7 @@ namespace FontAwesome.WPF {
 		[Description("US Dollar"),IconId("usd"),IconCategory("Currency Icons")]
 		Usd = 0xf155,
 		///<summary>Alias of: Usd</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Usd" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Usd" />
 		[IconAlias]
 		Dollar = Usd,
 		///<summary>Indian Rupee (INR) (created: 3.2)</summary>
@@ -1413,7 +1413,7 @@ namespace FontAwesome.WPF {
 		[Description("Indian Rupee (INR)"),IconId("inr"),IconCategory("Currency Icons")]
 		Inr = 0xf156,
 		///<summary>Alias of: Inr</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Inr" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Inr" />
 		[IconAlias]
 		Rupee = Inr,
 		///<summary>Japanese Yen (JPY) (created: 3.2)</summary>
@@ -1421,15 +1421,15 @@ namespace FontAwesome.WPF {
 		[Description("Japanese Yen (JPY)"),IconId("jpy"),IconCategory("Currency Icons")]
 		Jpy = 0xf157,
 		///<summary>Alias of: Jpy</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Jpy" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Jpy" />
 		[IconAlias]
 		Cny = Jpy,
 		///<summary>Alias of: Jpy</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Jpy" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Jpy" />
 		[IconAlias]
 		Rmb = Jpy,
 		///<summary>Alias of: Jpy</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Jpy" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Jpy" />
 		[IconAlias]
 		Yen = Jpy,
 		///<summary>Russian Ruble (RUB) (created: 4.0)</summary>
@@ -1437,11 +1437,11 @@ namespace FontAwesome.WPF {
 		[Description("Russian Ruble (RUB)"),IconId("rub"),IconCategory("Currency Icons")]
 		Rub = 0xf158,
 		///<summary>Alias of: Rub</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rub" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Rub" />
 		[IconAlias]
 		Ruble = Rub,
 		///<summary>Alias of: Rub</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rub" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Rub" />
 		[IconAlias]
 		Rouble = Rub,
 		///<summary>Korean Won (KRW) (created: 3.2)</summary>
@@ -1449,7 +1449,7 @@ namespace FontAwesome.WPF {
 		[Description("Korean Won (KRW)"),IconId("krw"),IconCategory("Currency Icons")]
 		Krw = 0xf159,
 		///<summary>Alias of: Krw</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Krw" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Krw" />
 		[IconAlias]
 		Won = Krw,
 		///<summary>Bitcoin (BTC) (created: 3.2)</summary>
@@ -1457,7 +1457,7 @@ namespace FontAwesome.WPF {
 		[Description("Bitcoin (BTC)"),IconId("btc"),IconCategory("Currency Icons"),IconCategory("Brand Icons")]
 		Btc = 0xf15a,
 		///<summary>Alias of: Btc</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Btc" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Btc" />
 		[IconAlias]
 		Bitcoin = Btc,
 		///<summary>File (created: 3.2)</summary>
@@ -1617,7 +1617,7 @@ namespace FontAwesome.WPF {
 		[Description("Gratipay (Gittip)"),IconId("gratipay"),IconCategory("Brand Icons")]
 		Gratipay = 0xf184,
 		///<summary>Alias of: Gratipay</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Gratipay" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Gratipay" />
 		[IconAlias]
 		Gittip = Gratipay,
 		///<summary>Sun Outlined (created: 3.2)</summary>
@@ -1669,7 +1669,7 @@ namespace FontAwesome.WPF {
 		[Description("Caret Square Outlined Left"),IconId("caret-square-o-left"),IconCategory("Web Application Icons"),IconCategory("Directional Icons")]
 		CaretSquareOutlineLeft = 0xf191,
 		///<summary>Alias of: CaretSquareOutlineLeft</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.CaretSquareOutlineLeft" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.CaretSquareOutlineLeft" />
 		[IconAlias]
 		ToggleLeft = CaretSquareOutlineLeft,
 		///<summary>Dot Circle Outlined (created: 4.0)</summary>
@@ -1689,7 +1689,7 @@ namespace FontAwesome.WPF {
 		[Description("Turkish Lira (TRY)"),IconId("try"),IconCategory("Currency Icons")]
 		Try = 0xf195,
 		///<summary>Alias of: Try</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Try" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Try" />
 		[IconAlias]
 		TurkishLira = Try,
 		///<summary>Plus Square Outlined (created: 4.0)</summary>
@@ -1721,11 +1721,11 @@ namespace FontAwesome.WPF {
 		[Description("University"),IconId("university"),IconCategory("Web Application Icons")]
 		University = 0xf19c,
 		///<summary>Alias of: University</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.University" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.University" />
 		[IconAlias]
 		Institution = University,
 		///<summary>Alias of: University</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.University" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.University" />
 		[IconAlias]
 		Bank = University,
 		///<summary>Graduation Cap (created: 4.1)</summary>
@@ -1733,7 +1733,7 @@ namespace FontAwesome.WPF {
 		[Description("Graduation Cap"),IconId("graduation-cap"),IconCategory("Web Application Icons")]
 		GraduationCap = 0xf19d,
 		///<summary>Alias of: GraduationCap</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.GraduationCap" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.GraduationCap" />
 		[IconAlias]
 		MortarBoard = GraduationCap,
 		///<summary>Yahoo Logo (created: 4.1)</summary>
@@ -1841,7 +1841,7 @@ namespace FontAwesome.WPF {
 		[Description("Car"),IconId("car"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
 		Car = 0xf1b9,
 		///<summary>Alias of: Car</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Car" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Car" />
 		[IconAlias]
 		Automobile = Car,
 		///<summary>Taxi (created: 4.1)</summary>
@@ -1849,7 +1849,7 @@ namespace FontAwesome.WPF {
 		[Description("Taxi"),IconId("taxi"),IconCategory("Web Application Icons"),IconCategory("Transportation Icons")]
 		Taxi = 0xf1ba,
 		///<summary>Alias of: Taxi</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Taxi" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Taxi" />
 		[IconAlias]
 		Cab = Taxi,
 		///<summary>Tree (created: 4.1)</summary>
@@ -1893,11 +1893,11 @@ namespace FontAwesome.WPF {
 		[Description("Image File Outlined"),IconId("file-image-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
 		FileImageOutline = 0xf1c5,
 		///<summary>Alias of: FileImageOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileImageOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FileImageOutline" />
 		[IconAlias]
 		FilePhotoOutline = FileImageOutline,
 		///<summary>Alias of: FileImageOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileImageOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FileImageOutline" />
 		[IconAlias]
 		FilePictureOutline = FileImageOutline,
 		///<summary>Archive File Outlined (created: 4.1)</summary>
@@ -1905,7 +1905,7 @@ namespace FontAwesome.WPF {
 		[Description("Archive File Outlined"),IconId("file-archive-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
 		FileArchiveOutline = 0xf1c6,
 		///<summary>Alias of: FileArchiveOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileArchiveOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FileArchiveOutline" />
 		[IconAlias]
 		FileZipOutline = FileArchiveOutline,
 		///<summary>Audio File Outlined (created: 4.1)</summary>
@@ -1913,7 +1913,7 @@ namespace FontAwesome.WPF {
 		[Description("Audio File Outlined"),IconId("file-audio-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
 		FileAudioOutline = 0xf1c7,
 		///<summary>Alias of: FileAudioOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileAudioOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FileAudioOutline" />
 		[IconAlias]
 		FileSoundOutline = FileAudioOutline,
 		///<summary>Video File Outlined (created: 4.1)</summary>
@@ -1921,7 +1921,7 @@ namespace FontAwesome.WPF {
 		[Description("Video File Outlined"),IconId("file-video-o"),IconCategory("Web Application Icons"),IconCategory("File Type Icons")]
 		FileVideoOutline = 0xf1c8,
 		///<summary>Alias of: FileVideoOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FileVideoOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FileVideoOutline" />
 		[IconAlias]
 		FileMovieOutline = FileVideoOutline,
 		///<summary>Code File Outlined (created: 4.1)</summary>
@@ -1945,19 +1945,19 @@ namespace FontAwesome.WPF {
 		[Description("Life Ring"),IconId("life-ring"),IconCategory("Web Application Icons")]
 		LifeRing = 0xf1cd,
 		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.LifeRing" />
 		[IconAlias]
 		LifeBouy = LifeRing,
 		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.LifeRing" />
 		[IconAlias]
 		LifeBuoy = LifeRing,
 		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.LifeRing" />
 		[IconAlias]
 		LifeSaver = LifeRing,
 		///<summary>Alias of: LifeRing</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.LifeRing" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.LifeRing" />
 		[IconAlias]
 		Support = LifeRing,
 		///<summary>Circle Outlined Notched (created: 4.1)</summary>
@@ -1969,11 +1969,11 @@ namespace FontAwesome.WPF {
 		[Description("Rebel Alliance"),IconId("rebel"),IconCategory("Brand Icons")]
 		Rebel = 0xf1d0,
 		///<summary>Alias of: Rebel</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rebel" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Rebel" />
 		[IconAlias]
 		Ra = Rebel,
 		///<summary>Alias of: Rebel</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Rebel" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Rebel" />
 		[IconAlias]
 		Resistance = Rebel,
 		///<summary>Galactic Empire (created: 4.1)</summary>
@@ -1981,7 +1981,7 @@ namespace FontAwesome.WPF {
 		[Description("Galactic Empire"),IconId("empire"),IconCategory("Brand Icons")]
 		Empire = 0xf1d1,
 		///<summary>Alias of: Empire</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Empire" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Empire" />
 		[IconAlias]
 		Ge = Empire,
 		///<summary>Git Square (created: 4.1)</summary>
@@ -1997,11 +1997,11 @@ namespace FontAwesome.WPF {
 		[Description("Hacker News"),IconId("hacker-news"),IconCategory("Brand Icons")]
 		HackerNews = 0xf1d4,
 		///<summary>Alias of: HackerNews</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HackerNews" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.HackerNews" />
 		[IconAlias]
 		YCombinatorSquare = HackerNews,
 		///<summary>Alias of: HackerNews</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HackerNews" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.HackerNews" />
 		[IconAlias]
 		YcSquare = HackerNews,
 		///<summary>Tencent Weibo (created: 4.1)</summary>
@@ -2017,7 +2017,7 @@ namespace FontAwesome.WPF {
 		[Description("Weixin (WeChat)"),IconId("weixin"),IconCategory("Brand Icons")]
 		Weixin = 0xf1d7,
 		///<summary>Alias of: Weixin</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Weixin" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Weixin" />
 		[IconAlias]
 		Wechat = Weixin,
 		///<summary>Paper Plane (created: 4.1)</summary>
@@ -2025,7 +2025,7 @@ namespace FontAwesome.WPF {
 		[Description("Paper Plane"),IconId("paper-plane"),IconCategory("Web Application Icons")]
 		PaperPlane = 0xf1d8,
 		///<summary>Alias of: PaperPlane</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PaperPlane" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.PaperPlane" />
 		[IconAlias]
 		Send = PaperPlane,
 		///<summary>Paper Plane Outlined (created: 4.1)</summary>
@@ -2033,7 +2033,7 @@ namespace FontAwesome.WPF {
 		[Description("Paper Plane Outlined"),IconId("paper-plane-o"),IconCategory("Web Application Icons")]
 		PaperPlaneOutline = 0xf1d9,
 		///<summary>Alias of: PaperPlaneOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.PaperPlaneOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.PaperPlaneOutline" />
 		[IconAlias]
 		SendOutline = PaperPlaneOutline,
 		///<summary>History (created: 4.1)</summary>
@@ -2073,7 +2073,7 @@ namespace FontAwesome.WPF {
 		[Description("Futbol Outlined"),IconId("futbol-o"),IconCategory("Web Application Icons")]
 		FutbolOutline = 0xf1e3,
 		///<summary>Alias of: FutbolOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FutbolOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FutbolOutline" />
 		[IconAlias]
 		SoccerBallOutline = FutbolOutline,
 		///<summary>TTY (created: 4.2)</summary>
@@ -2229,11 +2229,11 @@ namespace FontAwesome.WPF {
 		[Description("Shekel (ILS)"),IconId("ils"),IconCategory("Currency Icons")]
 		Ils = 0xf20b,
 		///<summary>Alias of: Ils</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Ils" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Ils" />
 		[IconAlias]
 		Shekel = Ils,
 		///<summary>Alias of: Ils</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Ils" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Ils" />
 		[IconAlias]
 		Sheqel = Ils,
 		///<summary>meanpath (created: 4.2)</summary>
@@ -2325,7 +2325,7 @@ namespace FontAwesome.WPF {
 		[Description("Transgender"),IconId("transgender"),IconCategory("Gender Icons")]
 		Transgender = 0xf224,
 		///<summary>Alias of: Transgender</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Transgender" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Transgender" />
 		[IconAlias]
 		Intersex = Transgender,
 		///<summary>Transgender Alt (created: 4.3)</summary>
@@ -2393,7 +2393,7 @@ namespace FontAwesome.WPF {
 		[Description("Bed"),IconId("bed"),IconCategory("Web Application Icons")]
 		Bed = 0xf236,
 		///<summary>Alias of: Bed</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bed" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Bed" />
 		[IconAlias]
 		Hotel = Bed,
 		///<summary>Viacoin (created: 4.3)</summary>
@@ -2417,7 +2417,7 @@ namespace FontAwesome.WPF {
 		[Description("Y Combinator"),IconId("y-combinator"),IconCategory("Brand Icons")]
 		YCombinator = 0xf23b,
 		///<summary>Alias of: YCombinator</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.YCombinator" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.YCombinator" />
 		[IconAlias]
 		Yc = YCombinator,
 		///<summary>Optin Monster (created: 4.4)</summary>
@@ -2437,11 +2437,11 @@ namespace FontAwesome.WPF {
 		[Description("Battery Full"),IconId("battery-full"),IconCategory("Web Application Icons")]
 		BatteryFull = 0xf240,
 		///<summary>Alias of: BatteryFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryFull" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.BatteryFull" />
 		[IconAlias]
 		Battery4 = BatteryFull,
 		///<summary>Alias of: BatteryFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryFull" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.BatteryFull" />
 		[IconAlias]
 		Battery = BatteryFull,
 		///<summary>Battery 3/4 Full (created: 4.4)</summary>
@@ -2449,7 +2449,7 @@ namespace FontAwesome.WPF {
 		[Description("Battery 3/4 Full"),IconId("battery-three-quarters"),IconCategory("Web Application Icons")]
 		BatteryThreeQuarters = 0xf241,
 		///<summary>Alias of: BatteryThreeQuarters</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryThreeQuarters" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.BatteryThreeQuarters" />
 		[IconAlias]
 		Battery3 = BatteryThreeQuarters,
 		///<summary>Battery 1/2 Full (created: 4.4)</summary>
@@ -2457,7 +2457,7 @@ namespace FontAwesome.WPF {
 		[Description("Battery 1/2 Full"),IconId("battery-half"),IconCategory("Web Application Icons")]
 		BatteryHalf = 0xf242,
 		///<summary>Alias of: BatteryHalf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryHalf" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.BatteryHalf" />
 		[IconAlias]
 		Battery2 = BatteryHalf,
 		///<summary>Battery 1/4 Full (created: 4.4)</summary>
@@ -2465,7 +2465,7 @@ namespace FontAwesome.WPF {
 		[Description("Battery 1/4 Full"),IconId("battery-quarter"),IconCategory("Web Application Icons")]
 		BatteryQuarter = 0xf243,
 		///<summary>Alias of: BatteryQuarter</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryQuarter" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.BatteryQuarter" />
 		[IconAlias]
 		Battery1 = BatteryQuarter,
 		///<summary>Battery Empty (created: 4.4)</summary>
@@ -2473,7 +2473,7 @@ namespace FontAwesome.WPF {
 		[Description("Battery Empty"),IconId("battery-empty"),IconCategory("Web Application Icons")]
 		BatteryEmpty = 0xf244,
 		///<summary>Alias of: BatteryEmpty</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.BatteryEmpty" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.BatteryEmpty" />
 		[IconAlias]
 		Battery0 = BatteryEmpty,
 		///<summary>Mouse Pointer (created: 4.4)</summary>
@@ -2525,7 +2525,7 @@ namespace FontAwesome.WPF {
 		[Description("Hourglass Start"),IconId("hourglass-start"),IconCategory("Web Application Icons")]
 		HourglassStart = 0xf251,
 		///<summary>Alias of: HourglassStart</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HourglassStart" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.HourglassStart" />
 		[IconAlias]
 		Hourglass1 = HourglassStart,
 		///<summary>Hourglass Half (created: 4.4)</summary>
@@ -2533,7 +2533,7 @@ namespace FontAwesome.WPF {
 		[Description("Hourglass Half"),IconId("hourglass-half"),IconCategory("Web Application Icons")]
 		HourglassHalf = 0xf252,
 		///<summary>Alias of: HourglassHalf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HourglassHalf" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.HourglassHalf" />
 		[IconAlias]
 		Hourglass2 = HourglassHalf,
 		///<summary>Hourglass End (created: 4.4)</summary>
@@ -2541,7 +2541,7 @@ namespace FontAwesome.WPF {
 		[Description("Hourglass End"),IconId("hourglass-end"),IconCategory("Web Application Icons")]
 		HourglassEnd = 0xf253,
 		///<summary>Alias of: HourglassEnd</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HourglassEnd" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.HourglassEnd" />
 		[IconAlias]
 		Hourglass3 = HourglassEnd,
 		///<summary>Hourglass (created: 4.4)</summary>
@@ -2553,7 +2553,7 @@ namespace FontAwesome.WPF {
 		[Description("Rock (Hand)"),IconId("hand-rock-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
 		HandRockOutline = 0xf255,
 		///<summary>Alias of: HandRockOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HandRockOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.HandRockOutline" />
 		[IconAlias]
 		HandGrabOutline = HandRockOutline,
 		///<summary>Paper (Hand) (created: 4.4)</summary>
@@ -2561,7 +2561,7 @@ namespace FontAwesome.WPF {
 		[Description("Paper (Hand)"),IconId("hand-paper-o"),IconCategory("Web Application Icons"),IconCategory("Hand Icons")]
 		HandPaperOutline = 0xf256,
 		///<summary>Alias of: HandPaperOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.HandPaperOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.HandPaperOutline" />
 		[IconAlias]
 		HandStopOutline = HandPaperOutline,
 		///<summary>Scissors (Hand) (created: 4.4)</summary>
@@ -2649,7 +2649,7 @@ namespace FontAwesome.WPF {
 		[Description("Television"),IconId("television"),IconCategory("Web Application Icons")]
 		Television = 0xf26c,
 		///<summary>Alias of: Television</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Television" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Television" />
 		[IconAlias]
 		Tv = Television,
 		///<summary>Contao (created: 4.4)</summary>
@@ -2857,7 +2857,7 @@ namespace FontAwesome.WPF {
 		[Description("American Sign Language Interpreting"),IconId("american-sign-language-interpreting"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
 		AmericanSignLanguageInterpreting = 0xf2a3,
 		///<summary>Alias of: AmericanSignLanguageInterpreting</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.AmericanSignLanguageInterpreting" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.AmericanSignLanguageInterpreting" />
 		[IconAlias]
 		AslInterpreting = AmericanSignLanguageInterpreting,
 		///<summary>Deaf (created: 4.6)</summary>
@@ -2865,11 +2865,11 @@ namespace FontAwesome.WPF {
 		[Description("Deaf"),IconId("deaf"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
 		Deaf = 0xf2a4,
 		///<summary>Alias of: Deaf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Deaf" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Deaf" />
 		[IconAlias]
 		Deafness = Deaf,
 		///<summary>Alias of: Deaf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Deaf" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Deaf" />
 		[IconAlias]
 		HardOfHearing = Deaf,
 		///<summary>Glide (created: 4.6)</summary>
@@ -2885,7 +2885,7 @@ namespace FontAwesome.WPF {
 		[Description("Sign Language"),IconId("sign-language"),IconCategory("Web Application Icons"),IconCategory("Accessibility Icons")]
 		SignLanguage = 0xf2a7,
 		///<summary>Alias of: SignLanguage</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.SignLanguage" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.SignLanguage" />
 		[IconAlias]
 		Signing = SignLanguage,
 		///<summary>Low Vision (created: 4.6)</summary>
@@ -2933,7 +2933,7 @@ namespace FontAwesome.WPF {
 		[Description("Google Plus Official"),IconId("google-plus-official"),IconCategory("Brand Icons")]
 		GooglePlusOfficial = 0xf2b3,
 		///<summary>Alias of: GooglePlusOfficial</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.GooglePlusOfficial" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.GooglePlusOfficial" />
 		[IconAlias]
 		GooglePlusCircle = GooglePlusOfficial,
 		///<summary>Font Awesome (created: 4.6)</summary>
@@ -2941,7 +2941,7 @@ namespace FontAwesome.WPF {
 		[Description("Font Awesome"),IconId("font-awesome"),IconCategory("Brand Icons")]
 		FontAwesome = 0xf2b4,
 		///<summary>Alias of: FontAwesome</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.FontAwesome" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.FontAwesome" />
 		[IconAlias]
 		Fa = FontAwesome,
 		///<summary>Handshake Outlined (created: 4.7)</summary>
@@ -2973,7 +2973,7 @@ namespace FontAwesome.WPF {
 		[Description("Address Card"),IconId("address-card"),IconCategory("Web Application Icons")]
 		AddressCard = 0xf2bb,
 		///<summary>Alias of: AddressCard</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.AddressCard" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.AddressCard" />
 		[IconAlias]
 		Vcard = AddressCard,
 		///<summary>Address Card Outlined (created: 4.7)</summary>
@@ -2981,7 +2981,7 @@ namespace FontAwesome.WPF {
 		[Description("Address Card Outlined"),IconId("address-card-o"),IconCategory("Web Application Icons")]
 		AddressCardOutline = 0xf2bc,
 		///<summary>Alias of: AddressCardOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.AddressCardOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.AddressCardOutline" />
 		[IconAlias]
 		VcardOutline = AddressCardOutline,
 		///<summary>User Circle (created: 4.7)</summary>
@@ -3005,7 +3005,7 @@ namespace FontAwesome.WPF {
 		[Description("Identification Card"),IconId("id-card"),IconCategory("Web Application Icons")]
 		IdCard = 0xf2c2,
 		///<summary>Alias of: IdCard</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.IdCard" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.IdCard" />
 		[IconAlias]
 		DriversLicense = IdCard,
 		///<summary>Identification Card Outlined (created: 4.7)</summary>
@@ -3013,7 +3013,7 @@ namespace FontAwesome.WPF {
 		[Description("Identification Card Outlined"),IconId("id-card-o"),IconCategory("Web Application Icons")]
 		IdCardOutline = 0xf2c3,
 		///<summary>Alias of: IdCardOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.IdCardOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.IdCardOutline" />
 		[IconAlias]
 		DriversLicenseOutline = IdCardOutline,
 		///<summary>Quora (created: 4.7)</summary>
@@ -3033,11 +3033,11 @@ namespace FontAwesome.WPF {
 		[Description("Thermometer Full"),IconId("thermometer-full"),IconCategory("Web Application Icons")]
 		ThermometerFull = 0xf2c7,
 		///<summary>Alias of: ThermometerFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerFull" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ThermometerFull" />
 		[IconAlias]
 		Thermometer4 = ThermometerFull,
 		///<summary>Alias of: ThermometerFull</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerFull" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ThermometerFull" />
 		[IconAlias]
 		Thermometer = ThermometerFull,
 		///<summary>Thermometer 3/4 Full (created: 4.7)</summary>
@@ -3045,7 +3045,7 @@ namespace FontAwesome.WPF {
 		[Description("Thermometer 3/4 Full"),IconId("thermometer-three-quarters"),IconCategory("Web Application Icons")]
 		ThermometerThreeQuarters = 0xf2c8,
 		///<summary>Alias of: ThermometerThreeQuarters</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerThreeQuarters" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ThermometerThreeQuarters" />
 		[IconAlias]
 		Thermometer3 = ThermometerThreeQuarters,
 		///<summary>Thermometer 1/2 Full (created: 4.7)</summary>
@@ -3053,7 +3053,7 @@ namespace FontAwesome.WPF {
 		[Description("Thermometer 1/2 Full"),IconId("thermometer-half"),IconCategory("Web Application Icons")]
 		ThermometerHalf = 0xf2c9,
 		///<summary>Alias of: ThermometerHalf</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerHalf" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ThermometerHalf" />
 		[IconAlias]
 		Thermometer2 = ThermometerHalf,
 		///<summary>Thermometer 1/4 Full (created: 4.7)</summary>
@@ -3061,7 +3061,7 @@ namespace FontAwesome.WPF {
 		[Description("Thermometer 1/4 Full"),IconId("thermometer-quarter"),IconCategory("Web Application Icons")]
 		ThermometerQuarter = 0xf2ca,
 		///<summary>Alias of: ThermometerQuarter</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerQuarter" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ThermometerQuarter" />
 		[IconAlias]
 		Thermometer1 = ThermometerQuarter,
 		///<summary>Thermometer Empty (created: 4.7)</summary>
@@ -3069,7 +3069,7 @@ namespace FontAwesome.WPF {
 		[Description("Thermometer Empty"),IconId("thermometer-empty"),IconCategory("Web Application Icons")]
 		ThermometerEmpty = 0xf2cb,
 		///<summary>Alias of: ThermometerEmpty</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.ThermometerEmpty" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.ThermometerEmpty" />
 		[IconAlias]
 		Thermometer0 = ThermometerEmpty,
 		///<summary>Shower (created: 4.7)</summary>
@@ -3081,11 +3081,11 @@ namespace FontAwesome.WPF {
 		[Description("Bath"),IconId("bath"),IconCategory("Web Application Icons")]
 		Bath = 0xf2cd,
 		///<summary>Alias of: Bath</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bath" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Bath" />
 		[IconAlias]
 		Bathtub = Bath,
 		///<summary>Alias of: Bath</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.Bath" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.Bath" />
 		[IconAlias]
 		S15 = Bath,
 		///<summary>Podcast (created: 4.7)</summary>
@@ -3109,7 +3109,7 @@ namespace FontAwesome.WPF {
 		[Description("Window Close"),IconId("window-close"),IconCategory("Web Application Icons")]
 		WindowClose = 0xf2d3,
 		///<summary>Alias of: WindowClose</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.WindowClose" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.WindowClose" />
 		[IconAlias]
 		TimesRectangle = WindowClose,
 		///<summary>Window Close Outline (created: 4.7)</summary>
@@ -3117,7 +3117,7 @@ namespace FontAwesome.WPF {
 		[Description("Window Close Outline"),IconId("window-close-o"),IconCategory("Web Application Icons")]
 		WindowCloseOutline = 0xf2d4,
 		///<summary>Alias of: WindowCloseOutline</summary>
-		///<see cref="F:FontAwesome.WPF.FontAwesomeIcon.WindowCloseOutline" />
+		///<see cref="F:FontAwesome.Avalonia.FontAwesomeIcon.WindowCloseOutline" />
 		[IconAlias]
 		TimesRectangleOutline = WindowCloseOutline,
 		///<summary>Bandcamp (created: 4.7)</summary>

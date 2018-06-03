@@ -4,7 +4,6 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
-using FontAwesome.Generate.Properties;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
@@ -47,23 +46,23 @@ namespace FontAwesome.Generate
         }
 
         #region [ Deserialize ]
-        [UsedImplicitly]
+        
         public class ConfigContainer
         {
-            [YamlAlias("icon_meta")]
+            [YamlMember(Alias = "icon_meta")]
             public string IconMeta { get; set; }
 
-            [YamlAlias("icon_destination")]
+            [YamlMember(Alias = "icon_destination")]
             public string IconDestination { get; set; }
 
-            [YamlAlias("fontawesome")]
+            [YamlMember(Alias = "fontawesome")]
             public FontAwesomeConfig FontAwesome { get; set; }
         }
 
-        [UsedImplicitly]
+        
         public class FontAwesomeConfig
         {
-            [YamlAlias("doc_blob")]
+            [YamlMember(Alias = "doc_blob")]
             public string DocBlob { get; set; }
 
             public string Url { get; set; }
@@ -75,25 +74,25 @@ namespace FontAwesome.Generate
             public Github Github { get; set; }
         }
 
-        [UsedImplicitly]
+        
         public class IconContainer
         {
             public List<IconEntry> Icons { get; set; } 
         }
-        [UsedImplicitly]
+        
         public class Author
         {
             public string Name { get; set; }
 
             public string Github { get; set; }
         }
-        [UsedImplicitly]
+        
         public class Github
         {
             public string Url { get; set; }
         }
 
-        [UsedImplicitly]
+        
         public class IconEntry
         {
             private static readonly Regex REG_PROP = new Regex(@"\([^)]*\)");

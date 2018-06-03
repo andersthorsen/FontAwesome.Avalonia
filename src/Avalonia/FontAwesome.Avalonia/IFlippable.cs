@@ -1,12 +1,10 @@
-﻿using System.Windows;
-using System.Windows.Controls;
+﻿using Avalonia.Controls;
 
-namespace FontAwesome.WPF
+namespace FontAwesome.Avalonia
 {
     /// <summary>
     /// Defines the different flip orientations that a icon can have.
     /// </summary>
-    [Localizability(LocalizationCategory.None, Readability = Readability.Unreadable)]
     public enum FlipOrientation
     {
         /// <summary>

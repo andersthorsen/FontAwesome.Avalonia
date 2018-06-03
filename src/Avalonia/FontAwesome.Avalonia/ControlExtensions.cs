@@ -2,11 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Windows;
-using System.Windows.Media;
-using System.Windows.Media.Animation;
+using Avalonia;
+using Avalonia.Media;
+using Avalonia.Animation;
+using Avalonia.Controls;
 
-namespace FontAwesome.WPF
+namespace FontAwesome.Avalonia
 {
     /// <summary>
     /// Control extensions
@@ -21,10 +22,10 @@ namespace FontAwesome.WPF
         /// <summary>
         /// Start the spinning animation
         /// </summary>
-        /// <typeparam name="T">FrameworkElement and ISpinable</typeparam>
+        /// <typeparam name="T">ContentControl and ISpinable</typeparam>
         /// <param name="control">Control to apply the rotation </param>
         public static void BeginSpin<T>(this T control)
-            where T : FrameworkElement, ISpinable
+            where T : ContentControl, ISpinable
         {
             var transformGroup = control.RenderTransform as TransformGroup ?? new TransformGroup();
 
@@ -65,10 +66,10 @@ namespace FontAwesome.WPF
         /// <summary>
         /// Stop the spinning animation 
         /// </summary>
-        /// <typeparam name="T">FrameworkElement and ISpinable</typeparam>
+        /// <typeparam name="T">ContentControl and ISpinable</typeparam>
         /// <param name="control">Control to stop the rotation.</param>
         public static void StopSpin<T>(this T control)
-            where T : FrameworkElement, ISpinable
+            where T : ContentControl, ISpinable
         {
             var storyboard = control.Resources[SpinnerStoryBoardName] as Storyboard;
 
@@ -82,10 +83,10 @@ namespace FontAwesome.WPF
         /// <summary>
         /// Sets the rotation for the control
         /// </summary>
-        /// <typeparam name="T">FrameworkElement and IRotatable</typeparam>
+        /// <typeparam name="T">ContentControl and IRotatable</typeparam>
         /// <param name="control">Control to apply the rotation</param>
         public static void SetRotation<T>(this T control)
-            where T : FrameworkElement, IRotatable
+            where T : ContentControl, IRotatable
         {
             var transformGroup = control.RenderTransform as TransformGroup ?? new TransformGroup();
 
@@ -99,17 +100,17 @@ namespace FontAwesome.WPF
             {
                 transformGroup.Children.Add(new RotateTransform(control.Rotation));
                 control.RenderTransform = transformGroup;
-                control.RenderTransformOrigin = new Point(0.5, 0.5);
+                control.RenderTransformOrigin = RelativePoint.Center;
             }
         }
 
         /// <summary>
         /// Sets the flip orientation for the control
         /// </summary>
-        /// <typeparam name="T">FrameworkElement and IRotatable</typeparam>
+        /// <typeparam name="T">ContentControl and IRotatable</typeparam>
         /// <param name="control">Control to apply the rotation</param>
         public static void SetFlipOrientation<T>(this T control)
-            where T : FrameworkElement, IFlippable
+            where T : ContentControl, IFlippable
         {
             var transformGroup = control.RenderTransform as TransformGroup ?? new TransformGroup();
 
@@ -127,7 +128,7 @@ namespace FontAwesome.WPF
             {
                 transformGroup.Children.Add(new ScaleTransform(scaleX, scaleY));
                 control.RenderTransform = transformGroup;
-                control.RenderTransformOrigin = new Point(0.5, 0.5);
+                control.RenderTransformOrigin = RelativePoint.Center;
             }
         }
     }

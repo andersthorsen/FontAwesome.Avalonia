@@ -4,10 +4,10 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Windows.Data;
-using System.Windows.Markup;
+using Avalonia.Data;
+using Avalonia.Markup;
 
-namespace FontAwesome.WPF.Converters
+namespace FontAwesome.Avalonia.Converters
 {
     /// <summary>
     /// Converts a FontAwesomIcon to its description.

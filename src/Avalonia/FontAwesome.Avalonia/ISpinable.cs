@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace FontAwesome.WPF
+namespace FontAwesome.Avalonia
 {
     /// <summary>
     /// Represents a spinable control

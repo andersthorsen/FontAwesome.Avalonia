@@ -4,10 +4,10 @@ using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
 using System.Text;
-using System.Windows.Data;
-using System.Windows.Markup;
+using Avalonia.Data;
+using Avalonia.Markup;
 
-namespace FontAwesome.WPF.Converters
+namespace FontAwesome.Avalonia.Converters
 {
     /// <summary>
     /// Converts the CSS class name to a FontAwesomIcon and vice-versa.
