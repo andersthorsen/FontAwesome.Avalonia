@@ -16,15 +16,15 @@ namespace FontAwesome.Generate
 
         public FontAwesomeInterop(string configYaml)
         {
-            
+
             var deserializer = new Deserializer(namingConvention: new CamelCaseNamingConvention(), ignoreUnmatched: true);
             _config = deserializer.Deserialize<ConfigContainer>(new StreamReader(configYaml));
-            
-            if(string.IsNullOrEmpty(_config.IconMeta)) throw new Exception("icon meta");
+
+            if (string.IsNullOrEmpty(_config.IconMeta)) throw new Exception("icon meta");
 
             var iconPath = Path.Combine(Path.GetDirectoryName(configYaml), _config.IconMeta);
 
-            if(!File.Exists(iconPath))
+            if (!File.Exists(iconPath))
                 throw new FileNotFoundException("icon.yaml file specified in _config.yaml could not be found", iconPath);
 
             _iconContainer = deserializer.Deserialize<IconContainer>(new StreamReader(iconPath));
@@ -46,7 +46,7 @@ namespace FontAwesome.Generate
         }
 
         #region [ Deserialize ]
-        
+
         public class ConfigContainer
         {
             [YamlMember(Alias = "icon_meta")]
@@ -59,7 +59,7 @@ namespace FontAwesome.Generate
             public FontAwesomeConfig FontAwesome { get; set; }
         }
 
-        
+
         public class FontAwesomeConfig
         {
             [YamlMember(Alias = "doc_blob")]
@@ -74,25 +74,25 @@ namespace FontAwesome.Generate
             public Github Github { get; set; }
         }
 
-        
+
         public class IconContainer
         {
-            public List<IconEntry> Icons { get; set; } 
+            public List<IconEntry> Icons { get; set; }
         }
-        
+
         public class Author
         {
             public string Name { get; set; }
 
             public string Github { get; set; }
         }
-        
+
         public class Github
         {
             public string Url { get; set; }
         }
 
-        
+
         public class IconEntry
         {
             private static readonly Regex REG_PROP = new Regex(@"\([^)]*\)");
@@ -128,7 +128,7 @@ namespace FontAwesome.Generate
 
                 if (text.EndsWith("-o") || text.Contains("-o-"))
                     text = text.Replace("-o", "-outline");
-                
+
                 var stringBuilder = new StringBuilder(textInfo.ToTitleCase(text.Replace("-", " ")));
 
                 stringBuilder
@@ -149,7 +149,7 @@ namespace FontAwesome.Generate
                         break;
                     }
                 }
-                
+
                 if (hasMatch)
                 {
                     stringBuilder.Insert(0, "Hand");
@@ -157,7 +157,7 @@ namespace FontAwesome.Generate
 
                 if (char.IsDigit(stringBuilder[0]))
                     stringBuilder.Insert(0, '_');
-                
+
                 return stringBuilder.ToString();
             }
         }

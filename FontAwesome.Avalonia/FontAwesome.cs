@@ -33,15 +33,16 @@ namespace FontAwesome.Avalonia
 
         static FontAwesome()
         {
-            IconProperty.Changed.AddClassHandler<FontAwesome>(p => p.OnIconPropertyChanged);
+            IconProperty.Changed.Subscribe(OnIconPropertyChanged);
         }
  
-        private void OnIconPropertyChanged(AvaloniaPropertyChangedEventArgs e)
+        private static void OnIconPropertyChanged(AvaloniaPropertyChangedEventArgs e)
         {
-            this.SetValue(FontFamilyProperty, FontAwesomeFontFamily);
-            this.SetValue(TextAlignmentProperty, TextAlignment.Center);
-            this.SetValue(TextProperty, char.ConvertFromUtf32((int)e.NewValue));
+            if(!(e.Sender is FontAwesome)) return;
+            var target = e.Sender as FontAwesome;
+          //  this.SetValue(FontFamilyProperty, FontAwesomeFontFamily);
+            target.SetValue(TextAlignmentProperty, TextAlignment.Center);
+            target.SetValue(TextProperty, char.ConvertFromUtf32((int)e.NewValue));
         }
-
     }
 }
