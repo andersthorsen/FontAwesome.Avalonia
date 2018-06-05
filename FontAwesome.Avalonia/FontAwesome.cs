@@ -12,11 +12,6 @@ namespace FontAwesome.Avalonia
         : TextBlock
     {
         /// <summary>
-        /// FontAwesome FontFamily.
-        /// </summary>
-        private static readonly FontFamily FontAwesomeFontFamily = Awesome.FontAwesomeFontFamily;
-        /// <summary>
-
         /// Identifies the FontAwesome.Avalonia.FontAwesome.Icon dependency property.
         /// </summary>
         public static readonly StyledProperty<FontAwesomeIcon> IconProperty =
@@ -29,20 +24,21 @@ namespace FontAwesome.Avalonia
         {
             get { return GetValue(IconProperty); }
             set { SetValue(IconProperty, value); }
-        } 
+        }
 
         static FontAwesome()
         {
             IconProperty.Changed.Subscribe(OnIconPropertyChanged);
+            FontFamilyProperty.OverrideDefaultValue<FontAwesome>(Awesome.FontAwesomeFontFamily);
         }
- 
+
         private static void OnIconPropertyChanged(AvaloniaPropertyChangedEventArgs e)
         {
-            if(!(e.Sender is FontAwesome)) return;
+            if (!(e.Sender is FontAwesome)) return;
             var target = e.Sender as FontAwesome;
-          //  this.SetValue(FontFamilyProperty, FontAwesomeFontFamily);
-            target.SetValue(TextAlignmentProperty, TextAlignment.Center);
-            target.SetValue(TextProperty, char.ConvertFromUtf32((int)e.NewValue));
+            target.FontFamily = Awesome.FontAwesomeFontFamily;
+            target.TextAlignment = TextAlignment.Center;
+            target.Text = char.ConvertFromUtf32((int)e.NewValue);
         }
     }
 }

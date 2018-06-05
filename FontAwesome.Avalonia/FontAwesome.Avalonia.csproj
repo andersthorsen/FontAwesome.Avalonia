@@ -5,7 +5,6 @@
     <LangVersion>latest</LangVersion>
     <VersionPrefix>0.5.0</VersionPrefix>
     <VersionSuffix>build$([System.DateTime]::Now.ToString('yyyyMMdd-HHmm'))</VersionSuffix>
-    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
   </PropertyGroup>
   <ItemGroup>
     <Compile Update="**\*.xaml.cs">
@@ -17,9 +16,6 @@
     <EmbeddedResource Include="..\Font-Awesome\fonts\fontawesome-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.6.2-build*" />
-    <!-- <DotNetCliToolReference Include="dotnet-codegen" Version="0.4.11" />
-    <PackageReference Include="CodeGeneration.Roslyn.BuildTime" Version="0.4.9" PrivateAssets="all" />
-    <ProjectReference Include="../FontAwesome.Generate/FontAwesome.Generate.csproj" /> -->
+    <PackageReference Include="Avalonia" Version="0.6.2-build5340-beta" PrivateAssets="All" />
   </ItemGroup>
 </Project>

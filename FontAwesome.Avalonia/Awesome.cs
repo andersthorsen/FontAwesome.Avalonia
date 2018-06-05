@@ -19,20 +19,20 @@ namespace FontAwesome.Avalonia
         /// <summary>
         /// FontAwesome FontFamily.
         /// </summary>
-        public static readonly FontFamily FontAwesomeFontFamily = new FontFamily("resm:FontAwesome.Avalonia.FontAwesome.otf#FontAwesome");
+        public const string FontAwesomeFontFamily = "resm:FontAwesome.Avalonia.fontawesome*.ttf?assembly=FontAwesome.Avalonia#FontAwesome";
 
         /// <summary>
         /// Identifies the FontAwesome.Avalonia.Awesome.Content attached dependency property.
         /// </summary>  
         public static readonly AttachedProperty<FontAwesomeIcon> IconProperty =
-            AvaloniaProperty.RegisterAttached<Awesome, Control, FontAwesomeIcon>("Icon", FontAwesomeIcon.None);
+            AvaloniaProperty.RegisterAttached<Awesome, ContentControl, FontAwesomeIcon>("Icon", FontAwesomeIcon.None);
 
-        public static FontAwesomeIcon GetIcon(Control target)
+        public static FontAwesomeIcon GetIcon(ContentControl target)
         {
             return target.GetValue(IconProperty);
         }
 
-        public static void SetIcon(Control target, FontAwesomeIcon value)
+        public static void SetIcon(ContentControl target, FontAwesomeIcon value)
         {
             target.SetValue(IconProperty, value);
         }
