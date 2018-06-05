@@ -19,3 +19,4 @@
     <PackageReference Include="Avalonia" Version="0.6.2-build5340-beta" PrivateAssets="All" />
   </ItemGroup>
 </Project>
+
