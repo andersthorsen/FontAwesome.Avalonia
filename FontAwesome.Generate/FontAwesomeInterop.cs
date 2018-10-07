@@ -17,7 +17,7 @@ namespace FontAwesome.Generate
         public FontAwesomeInterop(string configYaml)
         {
 
-            var deserializer = new Deserializer(namingConvention: new CamelCaseNamingConvention(), ignoreUnmatched: true);
+            var deserializer = new Deserializer();
             _config = deserializer.Deserialize<ConfigContainer>(new StreamReader(configYaml));
 
             if (string.IsNullOrEmpty(_config.IconMeta)) throw new Exception("icon meta");
