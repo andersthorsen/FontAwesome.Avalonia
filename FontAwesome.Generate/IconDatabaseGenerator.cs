@@ -6,7 +6,8 @@ using System;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Validation;
+using Microsoft;
+
 namespace FontAwesome.Generate
 {
     public class IconDatabaseGenerator : ICodeGenerator
@@ -16,6 +17,7 @@ namespace FontAwesome.Generate
         {
             Requires.NotNull(attributeData, nameof(attributeData));
         }
+
         public Task<SyntaxList<MemberDeclarationSyntax>> GenerateAsync(TransformationContext context, IProgress<Diagnostic> progress, CancellationToken cancellationToken)
         {
             var results = SyntaxFactory.List<MemberDeclarationSyntax>();

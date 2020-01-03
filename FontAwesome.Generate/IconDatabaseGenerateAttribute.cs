@@ -1,7 +1,6 @@
 using CodeGeneration.Roslyn;
 using System;
 using System.Diagnostics;
-using Validation;
 
 namespace FontAwesome.Generate
 {
