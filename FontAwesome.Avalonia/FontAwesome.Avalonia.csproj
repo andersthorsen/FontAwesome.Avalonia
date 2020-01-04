@@ -16,13 +16,13 @@
     <EmbeddedResource Include="..\Font-Awesome\fonts\fontawesome-webfont.ttf" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Avalonia" Version="0.6.2-build*" PrivateAssets="All" />
+    <PackageReference Include="Avalonia" Version="0.9.*" />
   </ItemGroup>
 
 
   <ItemGroup>
     <PackageReference Include="CodeGeneration.Roslyn.BuildTime" Version="*">
-      <PrivateAssets>*</PrivateAssets>
+      <PrivateAssets>All</PrivateAssets>
     </PackageReference>
     <ProjectReference Include="..\FontAwesome.Generate\FontAwesome.Generate.csproj" />
     <DotNetCliToolReference Include="dotnet-codegen" Version="*" />

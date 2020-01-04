@@ -1,13 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Globalization;
-using System.Linq;
-using System.Text;
-using Avalonia.Data;
 using Avalonia.Data.Converters;
-using Avalonia.Markup;
-using Portable.Xaml.Markup;
+using Avalonia.Markup.Xaml;
 
 namespace FontAwesome.Avalonia.Converters
 {

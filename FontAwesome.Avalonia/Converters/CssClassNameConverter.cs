@@ -7,7 +7,7 @@ using System.Text;
 using Avalonia.Data;
 using Avalonia.Data.Converters;
 using Avalonia.Markup;
-using Portable.Xaml.Markup;
+using Avalonia.Markup.Xaml;
 
 namespace FontAwesome.Avalonia.Converters
 {
