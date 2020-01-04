@@ -5,7 +5,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="CodeGeneration.Roslyn" Version="*" />
-    <PackageReference Include="Microsoft.VisualStudio.Validation" Version="12.0.0" />
     <PackageReference Include="YamlDotNet" Version="*" />
+    <PackageReference Include="Validation" Version="2.4.22" />
   </ItemGroup>
 </Project>
