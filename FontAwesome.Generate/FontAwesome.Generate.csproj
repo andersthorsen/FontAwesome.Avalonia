@@ -4,8 +4,12 @@
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="CodeGeneration.Roslyn" Version="*" />
-    <PackageReference Include="YamlDotNet" Version="*" />
+    <PackageReference Include="CodeGeneration.Roslyn" Version="*">
+      <PrivateAssets>*</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Validation" Version="2.4.22" />
+    <PackageReference Include="YamlDotNet" Version="*">
+      <PrivateAssets>*</PrivateAssets>
+    </PackageReference>
   </ItemGroup>
 </Project>
