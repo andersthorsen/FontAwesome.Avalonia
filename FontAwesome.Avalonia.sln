@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome.Avalonia", "FontAwesome.Avalonia.csproj", "{831C8491-7D24-486B-B3D9-D195FB979DB6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome.Avalonia", "FontAwesome.Avalonia\FontAwesome.Avalonia.csproj", "{831C8491-7D24-486B-B3D9-D195FB979DB6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome.Generate", "..\FontAwesome.Generate\FontAwesome.Generate.csproj", "{BBBF8CE5-8E27-4EB2-AFE2-87A581FD6C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FontAwesome.Generate", "FontAwesome.Generate\FontAwesome.Generate.csproj", "{BBBF8CE5-8E27-4EB2-AFE2-87A581FD6C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FontAwesome.Avalonia.Demo", "FontAwesome.Avalonia.Demo\FontAwesome.Avalonia.Demo.csproj", "{9BF3D28A-82A8-4820-AC04-E614174DB1A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{BBBF8CE5-8E27-4EB2-AFE2-87A581FD6C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBBF8CE5-8E27-4EB2-AFE2-87A581FD6C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBBF8CE5-8E27-4EB2-AFE2-87A581FD6C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BF3D28A-82A8-4820-AC04-E614174DB1A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BF3D28A-82A8-4820-AC04-E614174DB1A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BF3D28A-82A8-4820-AC04-E614174DB1A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BF3D28A-82A8-4820-AC04-E614174DB1A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

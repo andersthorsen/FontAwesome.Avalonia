@@ -1,0 +1,16 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        x:Class="FontAwesome.Avalonia.Demo.MainWindow"
+        Title="FontAwesome.Avalonia.Demo">
+  <StackPanel>
+    <TextBlock>
+      Welcome to Avalonia!
+    </TextBlock>
+    <fa:FontAwesome Icon="Envelope"></fa:FontAwesome>
+    <TextBlock Name="TestTextBlock" FontFamily="Font Awesome 5 Free" FontWeight="Regular">ToBeReplaced</TextBlock>
+  </StackPanel>
+</Window>
