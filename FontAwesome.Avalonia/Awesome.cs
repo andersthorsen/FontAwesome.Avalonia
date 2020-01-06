@@ -19,7 +19,7 @@ namespace FontAwesome.Avalonia
         /// <summary>
         /// FontAwesome FontFamily.
         /// </summary>
-        public const string FontAwesomeFontFamily = "resm:FontAwesome.Avalonia.fontawesome*.ttf?assembly=FontAwesome.Avalonia#FontAwesome";
+        public const string FontAwesomeFontFamily = "resm:FontAwesome.Avalonia.fa?assembly=FontAwesome.Avalonia#Font Awesome 5 Free";
 
         /// <summary>
         /// Identifies the FontAwesome.Avalonia.Awesome.Content attached dependency property.

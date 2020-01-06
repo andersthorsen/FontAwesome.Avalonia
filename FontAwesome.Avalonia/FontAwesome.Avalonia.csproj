@@ -13,12 +13,11 @@
     <EmbeddedResource Include="**\*.xaml">
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="..\Font-Awesome\fonts\fontawesome-webfont.ttf" />
+    <EmbeddedResource Include="..\Font-Awesome\webfonts\*.ttf" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Avalonia" Version="0.9.*" />
   </ItemGroup>
-
 
   <ItemGroup>
     <PackageReference Include="CodeGeneration.Roslyn.BuildTime" Version="*">

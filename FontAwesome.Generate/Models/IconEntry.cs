@@ -11,38 +11,25 @@ namespace FontAwesome.Generate.Models
 {
     public class IconEntry
     {
+        public IconEntry()
+        {
+            Categories = new List<string>();
+        }
+
         private static readonly Regex REG_PROP = new Regex(@"\([^)]*\)");
 
-        [YamlMember(Alias = "name")]
-        public string Name { get; set; }
-        [YamlMember(Alias = "id")]
-        public string Id { get; set; }
         [YamlMember(Alias = "unicode")]
         public string Unicode { get; set; }
-        [YamlMember(Alias = "created")]
-        public string Created { get; set; }
-
-        [YamlMember(Alias = "aliases")]
-        public List<string> Aliases { get; set; }
 
         [YamlMember(Alias = "categories")]
         public List<string> Categories { get; set; }
 
-        private string _safeName = null;
+        [YamlMember(Alias = "label")]
+        public string Label { get; set; }
 
-        [YamlIgnore]
-        public string SafeName
-        {
-            get
-            {
-                if (string.IsNullOrEmpty(_safeName))
-                {
-                    _safeName = Safe(Id);
-                }
-                return _safeName;
-            }
-        }
-
+        [YamlMember(Alias = "styles")]
+        public List<string> Styles { get; set; }
+        
         public string Safe(string text)
         {
             var cultureInfo = Thread.CurrentThread.CurrentCulture;

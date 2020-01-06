@@ -21,35 +21,37 @@ namespace FontAwesome.Generate
         public Task<SyntaxList<MemberDeclarationSyntax>> GenerateAsync(TransformationContext context, IProgress<Diagnostic> progress, CancellationToken cancellationToken)
         {
             var results = SyntaxFactory.List<MemberDeclarationSyntax>();
-            var fa = new FAConfigYamlParser("../Font-Awesome/_config.yml");
-            var baseUrl = String.Format("{0}/{1}/{{0}}/", fa.Config.Url, fa.Container.IconDestination);
+            var fa = new FAConfigYamlParser("../Font-Awesome/metadata/icons.yml", "../Font-Awesome/metadata/categories.yml");
+            var baseUrl = String.Format("{0}/{1}/{{0}}/", "http://fontawesome.io", "icon");
 
             var items = "";
 
             foreach (var item in fa.Items)
             {
+                if (!item.Value.Styles.Contains("regular"))
+                    continue;
 
-                items += $"///<summary>{item.Name} (created: {item.Created})</summary>\n";
-                items += $"///<see href=\"{String.Format(baseUrl, item.Id)}\" />\n";
+                items += $"///<summary>{item.Value.Label}</summary>\n";
+                items += $"///<see href=\"{String.Format(baseUrl, item.Key)}\" />\n";
 
                 var sb = new StringBuilder();
 
-                sb.AppendFormat("Description(\"{0}\"),", item.Name);
-                sb.AppendFormat("IconId(\"{0}\"),", item.Id);
+                sb.AppendFormat("Description(\"{0}\"),", item.Value.Label);
+                sb.AppendFormat("IconId(\"{0}\"),", item.Key);
 
-                if (item.Categories != null && item.Categories.Count > 0)
+                if (item.Value.Categories != null && item.Value.Categories.Count > 0)
                 {
-                    foreach (var cat in item.Categories)
+                    foreach (var cat in item.Value.Categories)
                     {
                         sb.AppendFormat("IconCategory(\"{0}\"),", cat);
                     }
                 }
 
-
                 sb.Remove(sb.Length - 1, 1);
                 items += $"[{sb.ToString()}]\n";
-                items += $"{item.SafeName} = 0x{item.Unicode},\n";
+                items += $"{item.Value.Safe(item.Key)} = 0x{item.Value.Unicode},\n";
 
+                /*
                 if (item.Aliases != null)
                 {
                     foreach (var alias in item.Aliases)
@@ -61,16 +63,16 @@ namespace FontAwesome.Generate
                         items += $"[IconAlias]\n";
                         items += $"{safeAlias} = {item.SafeName},\n";
                     }
-                }
+                }*/
             }
 
             var src = $@" 
                 ///<summary>
-                ///	FontAwesome {fa.Config.Version} by {fa.Config.Author.Name} (@{fa.Config.Author.Github})
-                ///	{fa.Config.Tagline}
+                ///	FontAwesome 5.x by Dave Gandy (davegandy)
+                ///	The iconic font and CSS toolkit
                 ///</summary>
-                ///<see href=""{fa.Config.Url}"" />
-                ///<seealso href=""{fa.Config.Github.Url}"" />
+                ///<see href=""http://fontawesome.io"" />
+                ///<seealso href=""https://github.com/FortAwesome/Font-Awesome/"" />
                 ///<seealso href=""https://github.com/jmacato/FontAwesome.Avalonia"" />
                 public enum FontAwesomeIcon {{
                     

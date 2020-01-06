@@ -7,47 +7,30 @@ using System.Threading;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 using FontAwesome.Generate.Models;
+using MoreLinq.Extensions;
 
 namespace FontAwesome.Generate
 {
     public class FAConfigYamlParser
     {
-        private readonly ConfigContainer _config;
-        private readonly IconContainer _iconContainer;
-
-        public FAConfigYamlParser(string configYaml)
+        public FAConfigYamlParser(string iconPath, string categoryPath)
         {
 
             var deserializer = new DeserializerBuilder()
                                         .IgnoreUnmatchedProperties()
                                         .Build();
 
-            _config = deserializer.Deserialize<ConfigContainer>(new StreamReader(configYaml));
+            Categories = deserializer.Deserialize<Dictionary<string, CategoryEntry>>(new StreamReader(categoryPath));
 
-            if (string.IsNullOrEmpty(_config.IconMeta)) throw new Exception("Missing Icon metadata on config.yml");
+            Items = deserializer.Deserialize<Dictionary<string, IconEntry>>(new StreamReader(iconPath));
 
-            var iconPath = Path.Combine(Path.GetDirectoryName(configYaml), _config.IconMeta);
-
-            if (!File.Exists(iconPath))
-                throw new FileNotFoundException("icon.yaml file specified in _config.yaml could not be found", iconPath);
-
-            _iconContainer = deserializer.Deserialize<IconContainer>(new StreamReader(iconPath));
+            // Map categories onto the icons
+            Categories.ForEach(c =>
+                c.Value.Icons.ForEach(i => Items[i].Categories.Add(c.Key)));
         }
 
-        public IEnumerable<IconEntry> Items
-        {
-            get { return _iconContainer.Icons; }
-        }
+        public Dictionary<string, CategoryEntry> Categories { get; set; }
 
-        public FontAwesomeConfig Config
-        {
-            get { return _config.FontAwesome; }
-        }
-
-        public ConfigContainer Container
-        {
-            get { return _config; }
-        }
-
+        public Dictionary<string, IconEntry> Items { get; }
     }
 }

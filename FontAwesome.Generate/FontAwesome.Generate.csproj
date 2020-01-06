@@ -7,6 +7,7 @@
     <PackageReference Include="CodeGeneration.Roslyn" Version="*">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="morelinq" Version="3.3.2" />
     <PackageReference Include="Validation" Version="2.4.22" />
     <PackageReference Include="YamlDotNet" Version="*">
       <PrivateAssets>All</PrivateAssets>
