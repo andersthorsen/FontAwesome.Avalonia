@@ -28,7 +28,7 @@ namespace FontAwesome.Generate
 
             foreach (var item in fa.Items)
             {
-                if (!item.Value.Styles.Contains("regular"))
+                if (!(item.Value.Styles.Contains("regular") || item.Value.Styles.Contains("solid")))
                     continue;
 
                 items += $"///<summary>{item.Value.Label}</summary>\n";

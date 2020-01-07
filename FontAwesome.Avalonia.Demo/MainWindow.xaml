@@ -11,6 +11,7 @@
       Welcome to Avalonia!
     </TextBlock>
     <fa:FontAwesome Icon="Envelope"></fa:FontAwesome>
+    <fa:FontAwesome Icon="Sync" FontWeight="Bold"></fa:FontAwesome>
     <TextBlock Name="TestTextBlock" FontFamily="Font Awesome 5 Free" FontWeight="Regular">ToBeReplaced</TextBlock>
   </StackPanel>
 </Window>
